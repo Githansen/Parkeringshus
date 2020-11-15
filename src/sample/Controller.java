@@ -97,7 +97,7 @@ public class Controller {
     @FXML
     void kjørUt(ActionEvent event) {
         // kall frigjør plass og legg ut kvitteringen i lblAvgift
-        amfi.frigjørPlass(txtBilnummer.getText());
+        
         lblAvgift.setText(amfi.frigjørPlass(txtBilnummer.getText()));
     }
 
